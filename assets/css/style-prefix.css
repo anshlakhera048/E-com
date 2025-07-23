@@ -1,24 +1,5 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 @codewithsadee 
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
-
-  /**
-   * colors
-   */
 
   --spanish-gray: hsl(0, 0%, 60%);
   --sonic-silver: hsl(0, 0%, 47%);
@@ -31,10 +12,6 @@
   --cultured: hsl(0, 0%, 93%);
   --white: hsl(0, 100%, 100%);
   --onyx: hsl(0, 0%, 27%);
-
-  /**
-   * typography
-   */
 
   --fs-1: 1.563rem;
   --fs-2: 1.375rem;
@@ -54,28 +31,14 @@
   --weight-600: 600;
   --weight-700: 700;
 
-  /**
-   * border-radius
-   */
-
   --border-radius-md: 10px;
   --border-radius-sm: 5px;
-
-  /**
-   * transition 
-   */
 
   --transition-timing: 0.2s ease;
 
 }
 
 
-
-
-
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
 
 *, *::before, *::after {
   margin: 0;
@@ -123,10 +86,6 @@ input::placeholder { font: inherit; }
 
 body { background: var(--white); }
 
-/**
- * scrollbar style
- */
-
 body::-webkit-scrollbar { width: 15px; }
 
 body::-webkit-scrollbar-track {
@@ -144,12 +103,6 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
-
-
-
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
 
 .container { padding: 0 15px; }
 
